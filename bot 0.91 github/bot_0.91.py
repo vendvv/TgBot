@@ -707,7 +707,7 @@ def usQ_deletion_handler(date):
         bot.send_message(Suser[1], f'Очередь на {UserQueueS[date][0]}.\nрегистрация завершена\n{strin}')
     del UserQueueS[date]
 
-
+"""
 print("polling")
 if __name__ == '__main__':
   while True:
@@ -715,7 +715,7 @@ if __name__ == '__main__':
       bot.polling(none_stop=True)
     except:
       time.sleep(0.3)
-
+"""
 #при создании двух пользовательских очередей главный поток спит и не дает зарегистрироваться
 # подтверждено, что-то с потоками, что-то занимает главный поток
 #две послед очереди тоже не ворк
